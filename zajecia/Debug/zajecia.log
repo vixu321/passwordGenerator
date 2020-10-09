@@ -1,4 +1,4 @@
 ﻿  zajecia.cpp
-C:\Users\Liceum_r\Documents\Filip Hanslik\zajecia\zajecia\zajecia.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Liceum_r\Documents\Filip Hanslik\zajecia\zajecia\zajecia.cpp(17,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  zajecia.vcxproj -> C:\Users\Liceum_r\Documents\Filip Hanslik\zajecia\Debug\zajecia.exe
+C:\Users\Liceum_r\Documents\Filip Hanslik\program\passwordGenerator\zajecia\zajecia.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Liceum_r\Documents\Filip Hanslik\program\passwordGenerator\zajecia\zajecia.cpp(27,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  zajecia.vcxproj -> C:\Users\Liceum_r\Documents\Filip Hanslik\program\passwordGenerator\Debug\zajecia.exe
