@@ -57,7 +57,31 @@ void passwordGenerator() {
    plikTekstowy.close();
 }
 
+void sortRandomNumbers() {
+    system("CLS");
+    int numbers[10];
+    srand(time(0));
 
+    for (int i = 0; i < 10; i++) {
+        numbers[i] = rand();
+    }
+
+    for (int i = 0; i < 10; i++) {
+        if (numbers[i + 1] > numbers[i]) {
+            int temp = numbers[i];
+            numbers[i] = numbers[i + 1];
+            numbers[i+1] = temp;
+            i = -1;
+        }
+    }
+
+    for (int i = 0; i < 10; i++) {
+        cout << numbers[i] << endl;
+    }
+
+
+
+}
 
 
 
@@ -66,13 +90,16 @@ int main()
     int wybor;
     cout << "Co chcialbys wygenerowac: "<<endl;
     cout << "1. Losowy numer w podanym zakresie." << endl;
-    cout << "2. Losowe haslo i zapis tego hasla do pliku" << endl;
+    cout << "2. Losowe haslo i zapis tego hasla do pliku." << endl;
+    cout << "3. Sortowanie losowych numerow." << endl;
     cin >> wybor;
 
     switch (wybor) {
     case 1: numberGenerator();
         break;
     case 2: passwordGenerator();
+        break;
+    case 3: sortRandomNumbers();
         break;
     default: return 0;
     }
@@ -82,6 +109,9 @@ int main()
 
 
  
+
+
+
 
 
 
